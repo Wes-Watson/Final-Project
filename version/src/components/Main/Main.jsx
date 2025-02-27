@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import "./Main.css";
 import ClubCard from "../ClubCard/ClubCard";
 
-function Main({ onFavoriteClick, initialCards, favoriteCards, findCourts }) {
+function Main({ onFavoriteClick, favoriteCards, findCourts }) {
   const [city, setCity] = useState("");
   const [cards, setCards] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
@@ -57,7 +57,7 @@ function Main({ onFavoriteClick, initialCards, favoriteCards, findCourts }) {
           <h2 className="main__description">Let's Find some Courts!</h2>
         </div>
       ) : (
-        <ul className="cards__list">
+        <ul className="main__list">
           {cards.map((item) => {
             return (
               <ClubCard

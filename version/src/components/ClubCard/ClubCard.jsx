@@ -10,7 +10,6 @@ function ClubCard({ onFavoriteClick, item, favoriteCards }) {
     onFavoriteClick(item);
   };
 
-  //const favoriteCard = useContext(FavoriteCardContext);
   const favoriteCard = favoriteCards.includes(item);
 
   const buttonClassName = favoriteCard

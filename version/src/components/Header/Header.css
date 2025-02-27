@@ -8,7 +8,7 @@
 
 .header__title {
   margin: 0;
-  font-family: "CabinetGrotesk-Bold";
+  font-family: "CabinetGrotesk-Bold", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.24;
@@ -18,7 +18,7 @@
 
 .header__favorite {
   margin: 0;
-  font-family: "CabinetGrotesk-Bold";
+  font-family: "CabinetGrotesk-Bold", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.24;
