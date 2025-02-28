@@ -41,7 +41,7 @@
 }
 
 .card__favorite {
-  background-image: url(../../assets/Like-button.png);
+  background-image: url(../../assets/Like-button.svg);
   background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,5 +58,5 @@
 }
 
 .card__favorite_active {
-  background-image: url(../../assets/Filled-Button.png);
+  background-image: url(../../assets/Filled-button.svg);
 }
