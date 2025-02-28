@@ -52,5 +52,17 @@
   flex-wrap: wrap;
   gap: 20px;
   margin: 0;
-  padding: 30px 10px 0 15px;
+  padding: 30px 10px 0 110px;
+}
+
+@media screen and (max-width: 928px) and (min-width: 506px) {
+  .main__list {
+    padding: 30px 10px 0 155px;
+  }
+}
+
+@media screen and (max-width: 488px) and (min-width: 311px) {
+  .main__list {
+    padding: 30px 10px 0 15px;
+  }
 }
