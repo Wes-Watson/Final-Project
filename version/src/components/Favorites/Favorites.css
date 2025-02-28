@@ -1,0 +1,34 @@
+.favorite__title {
+  color: #fff;
+  margin: 0;
+  padding-top: 15px;
+  font-family: "CabinetGrotesk-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.24;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.favorite__empty {
+  height: 100vh;
+}
+
+.favorite__description {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 30px;
+  font-family: "CabinetGrotesk-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.24;
+  cursor: pointer;
+}
+
+.favorite__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 30px 10px 0 15px;
+}
